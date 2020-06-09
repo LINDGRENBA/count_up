@@ -17,14 +17,16 @@
         <form>
           <div class="form-group">
             <label for="upperLimit">How high do you want to go?</label>
-            <input type="number" name="upperLimit" id="upperLimit" class="form-control">
+            <input type="number" name="upperLimit" id="upperLimit" class="form-control" required>
           </div>
           <div class="form-group">
             <label for="multiple">What do you want to count by?</label>
-            <input type="number" name="multiple" id="multiple" class="form-control">
+            <input type="number" name="multiple" id="multiple" class="form-control" required>
           </div>
           <button class="btn btn-success" type="submit" id="submit">Let's Count!</button>
         </form>
+        <div id="output">
+          <p>This Is Where Output Goes</p>
+        </div>
       </div>
     </body>
-  </html>
